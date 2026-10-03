@@ -1,0 +1,1 @@
+$('#mSend').addEventListener('click', () => { location.href = `mailto:devflowcreative@gmail.com?subject=${encodeURIComponent('Message from '+($('#mn').value||'website visitor'))}&body=${encodeURIComponent($('#mm').value)}` });
